@@ -1,9 +1,9 @@
-# World Layoffs Data Exploration (SQL)
+# 📉 World Layoffs Data Exploration (SQL)
 
 ## 📌 Project Overview
 This project aims to perform **Exploratory Data Analysis (EDA)** on the global layoffs dataset. The primary objective is to understand workforce reduction trends, industry patterns, and the evolution of the economic crisis from the pandemic era (2020) to the current landscape (2024-2025).
 
-## Tools & Techniques
+## 🛠️ Tools & Techniques
 - **Database:** MySQL
 - **SQL Skills Used:**
   - **DML:** Data cleaning and standardization.
@@ -38,7 +38,7 @@ Using *Window Functions* to rank the top contributors annually, distinct shifts 
 - **Rolling Total:** The cumulative layoff chart shows an exponential increase with no significant signs of slowing down through the 2025 period.
 
 ## 📂 SQL Query Structure
-The `Layoffs_EDA_Project.sql` file contains the following analysis steps:
+The **[Layoffs_EDA_Project.sql](Layoffs_EDA_Project.sql)** file contains the following analysis steps:
 1.  **Data Overview:** Checking data structure and schema.
 2.  **Max Layoffs:** Identifying extreme values.
 3.  **Bankruptcy Check:** Analyzing companies that went under.
