@@ -1,19 +1,19 @@
 ![World Layoffs Dashboard](dashboard_preview.png)
 
-# 📉 World Layoffs Data Exploration (SQL & Excel)
+# World Layoffs Data Exploration (SQL & Excel)
 
-## 📌 Project Overview
+## Project Overview
 This project performs an end-to-end **Exploratory Data Analysis (EDA)** on global layoffs data. The goal is to analyze workforce reduction trends from the pandemic era (2020) to the current economic landscape (2024-2025).
 
 The project consists of two main parts:
 1.  **Data Analysis (MySQL):** Using advanced SQL queries to clean data and extract key insights.
 2.  **Visualization (Excel):** Creating an interactive dashboard to visualize the impact across industries, countries, and time.
 
-## 💾 Data Source
+## Data Source
 The dataset used in this project was obtained from Kaggle, containing global layoff data from 2020 to 2025.
 - **Source:** [Kaggle - Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022) *(Original data sourced from Layoffs.fyi)*
 
-## 🛠️ Tools & Techniques
+## Tools & Techniques
 - **MySQL:**
   - **Data Cleaning:** Removing duplicates, standardizing data types.
   - **Exploratory Analysis:** `SUM`, `MAX`, `GROUP BY` for aggregation.
@@ -22,7 +22,7 @@ The dataset used in this project was obtained from Kaggle, containing global lay
   - **Dashboarding:** Creating a professional layout with KPI cards and charts.
   - **Data Visualization:** Line charts for trends, Bar charts for ranking.
 
-## 📊 Key Findings
+## Key Findings
 Based on the SQL analysis and Dashboard visualization:
 
 ### 1. The Scale of Crisis
@@ -48,11 +48,11 @@ Using *Window Functions*, we observed a shift in the crisis focus:
 ### 5. Temporal Trend
 - **Volatile Trend:** The data reveals a massive peak in layoffs around **early 2023**. Following this period, the trend remained volatile with intermittent spikes in 2024 and 2025, but recent data towards the end of 2025 indicates a potential **cooling down** in layoff activities.
 
-## 📂 Project Files
+## Project Files
 You can view or download the source files here:
 
-- **📄 SQL Script:** [Layoffs_EDA_Project.sql](Layoffs_EDA_Project.sql) (Contains all queries used for analysis).
-- **📊 Excel Dashboard:** [World_Layoffs_Dashboard.xlsx](World_Layoffs_Dashboard.xlsx) (The full interactive dashboard file).
+- **SQL Script:** [Layoffs_EDA_Project.sql](Layoffs_EDA_Project.sql) (Contains all queries used for analysis).
+- **Excel Dashboard:** [World_Layoffs_Dashboard.xlsx](World_Layoffs_Dashboard.xlsx) (The full interactive dashboard file).
 
 ---
 *This project is documented as part of a Data Analyst portfolio.*
